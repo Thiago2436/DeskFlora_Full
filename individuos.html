@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="Sstilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de individuos</title>
+</head>
+<body>
+    
+    <form action="individuoscad.php" method="post">
+        <h3> CADASTRAR ARVORES </h3>
+        <label for="nome">NOME POPULAR</label><br>
+        <input type="text" name="nomepopular" id="nomepopular" required><br>
+        <label for="nomecientifico">NOME CIENTIFICO</label><br>
+        <input type="text" name="nomecientifico" id="nomecientifico"><br>
+        <label for="altura">ALTURA TOTAL (HT) </label><br>
+        <input type="number" name="altura" id="altura" required><br>
+        <label for="diametro">CIRCUFERENCIA(CAP)</label><br>
+        <input type="number" name="diametro" id="diametro" required><br><br>
+        <input type="submit" value="Registrar"><br><br>
+    </form>
+   <h1><a href="dashboard.php"> Voltar / [DASH BOARD] </a><br><br>
+</body>
+</html>

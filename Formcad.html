@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <link rel="stylesheet" href="Sstilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Novo Usuario</title>
+</head>
+<body>
+    <h1> Cadastro de usuario</h1><br>
+    <form name="caduser"  method="POST" action="cad.php" >
+        
+        <h2>Dados pessoais</h2>
+        <label for="NOME"> NOME : </label>
+        <input type="text" name="nome" id="nome" placeholder=" Digite o nome completo"  required><br>
+        <br>
+        <label for="EMAIL">E-MAIL</label>
+        <input type="email" name="email" id="email" placeholder=" Digite seu melhor e-mail" required><br>
+        <br>
+        <label for="TEL_CEL">TELEFONE CELULAR(Opcional)</label><br>
+        <input type="tel" name="telefone" id="telefone" placeholder=" Digite Celular"><br>
+        <br>
+        <label for="SENHA"> SENHA </label>
+        <input type="password" name="senha" id="senha" placeholder="senha" required>
+        <br>
+        <br>
+        <input type="submit" value="Cadastrar" name="CadUsuarios"><BR>
+
+    </form>
+
+    <footer>
+        <br>
+        <h1>
+        <a href="index.html">  VOLTAR </a>
+        </h1>
+    </footer>
+</body>
+</html>
