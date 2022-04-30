@@ -15,7 +15,7 @@ session_start();
       
     <form action="valida.php" method="post">
         <h3>LOGIN</h3>
-        <label for="nome"> NOME </label><br>
+        <label for="nome"> NOME do usuario </label><br>
         <input type="text" name="nome" id="nome" placeholder="Nome De usuario" required><br>
         <Label for="senha"> SENHA</Label><br>
         <input type="password" name="senha" id="senha" placeholder=" Senha "><br>
