@@ -21,7 +21,7 @@
                     $_SESSION['usuarioid'] = $resultado['id'];
                     $_SESSION['usuarioNome']= $resultado['nome'];
                     $senha = md5($senha); // criptografia.
-                    header("Location: dashboard.php");
+                    header("Location: home.php");
 
                 }else{
                     $_SESSION['loginErro'] = "Usuário ou senha Inválido";
