@@ -8,5 +8,6 @@
 </head>
 <body>
     Home
+    <a href="dashboard.php">Abrir inventario </a>
 </body>
 </html>
