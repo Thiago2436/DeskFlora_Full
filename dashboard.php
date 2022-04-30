@@ -51,8 +51,8 @@ include_once("conex.php");
     <body>
         <nav>
         <p>
-        <a href="individuos.html"> [CADASTRAR NOVO ] </a>
-        <a href="dashboard.php">  [ ATUALIZAR PAGINA ] </a><br><br>
+        <a href="dash_individuos.php"> [ABRIR INVENTARIO] </a>
+        <a href="dashboard.php">  [ ATUALIZAR PAGINA ] </a><br>
         <a href="sair.php"> Sair/Salvar </a><br>
         <a href="gerar_planilha.php"> [Gerar Planilha] </a>
         <hr>
