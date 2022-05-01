@@ -53,7 +53,7 @@ include_once("conex.php");
         <p>
         <a href="individuos.html"> [Cadastrar Novo] </a><br>
         <a href="dashboard.php">  [ ATUALIZAR PAGINA ] </a><br>
-        <a href="sair.php"> Sair/Salvar </a><br>
+        <a href="home.php"> Sair/Salvar </a><br>
         <a href="gerar_planilha.php"> [Gerar Planilha] </a>
         <hr>
         </p>
