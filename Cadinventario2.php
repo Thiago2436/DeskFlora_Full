@@ -24,9 +24,15 @@
     $Rua = $_POST['Rua'];
     $Numero = $_POST['Numero'];
     $Complemento = $_POST['Complemento'];
+
+    $lista = mysqli_query($conn,"SELECT * FROM individuos")
+                or die ( " invalida consulta");
+           
 echo "Cidade : ". $Cidade."<br>";
+
 echo "Estado : ". $Estado."<br>";  
 echo "Bairro : ". $Bairro."<br>";
+
 
 
 ?>
