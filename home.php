@@ -11,7 +11,7 @@
     
     <h1>Escola um inventario</h1>
     <nav>
-    <a href="dashboard.php">Abrir inventario </a><br>
+    <a href="ListarInventarios.php">Listar Inventarios</a><br>
     <a href="Cadinventario.php"> Cadastrar Novo Inventario</a> <br>
     <a href="sair.php">Log Out</a>
     </nav>
