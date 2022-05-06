@@ -60,7 +60,13 @@ include_once("conex.php");
         </nav>
         <?php
           
-        $result_ind= "SELECT * FROM individuos" ;
+        
+        $pagina_atual = filter_input(INPUT_GET,'pagina', FILTER_SANITIZE_NUMBER_INT);		
+		$pagina = (!empty($pagina_atual)) ? $pagina_atual : 1;
+        $qnt_result_pg = 2;
+        $inicio = ($qnt_result_pg * $pagina) - $qnt_result_pg;
+
+        $result_ind= "SELECT * FROM individuos LIMIT $inicio, $qnt_result_pg" ;
         $result_indi= mysqli_query($conn, $result_ind);
         
         echo " <h1><BR> LOGADO  : [ ".$_SESSION['usuarioNome']." ] <br> ID : ".$_SESSION['usuarioid']."</h1><hr>";
@@ -80,7 +86,12 @@ include_once("conex.php");
                $cont ++;
                            
             }
-            echo "<h1> Contagem Total : [ ".$cont." ] Registros</h1>"; 
+
+        $result_pg = "SELECT COUNT(id) AS num_result FROM individuos";
+		$resultado_pg = mysqli_query($conn, $result_pg);
+		$row_pg = mysqli_fetch_assoc($resultado_pg);
+        echo "<h1> Contagem na Pagina : [ ".$cont." ] Registros. Com um total de :".$row_pg['num_result']." Registros</h1>"; 
+         
         }
         ?>
         

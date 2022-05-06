@@ -22,7 +22,7 @@
             $result_inv= "SELECT * FROM Inventarios" ;
             $result_invi= mysqli_query($conn, $result_inv);
             
-            echo " <h1><BR> LOGADO  : [ ".$_SESSION['usuarioNome']." ] <br> ID : ".$_SESSION['usuarioid']."</h1><hr>";
+            echo " <h1>LOGADO  : [ ".$_SESSION['usuarioNome']." ] <br> ID : ".$_SESSION['usuarioid']."</h1><hr>";
             if(empty($_SESSION['usuarioNome'])){
                         $_SESSION['loginErro'] = "Usuario  ou Senha Invalido";
                         unset($_SESSION['loginErro']);
