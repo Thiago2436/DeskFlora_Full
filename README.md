@@ -3,12 +3,9 @@ Prancheta eletrônica web em php
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Run, Install, Clone**
-
     - [Run](#DeskFlora-Run)
-    
-    - [Install](#DeskFlora-install)
-    
-    - [Clone](#DeskFlora-Clone)
+	   - [Install](#DeskFlora-install)
+    		    - [Clone](#DeskFlora-Clone)
     
 <!-- markdown-toc end -->
 
