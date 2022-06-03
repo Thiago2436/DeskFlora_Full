@@ -63,7 +63,7 @@ include_once("conex.php");
         
         $pagina_atual = filter_input(INPUT_GET,'pagina', FILTER_SANITIZE_NUMBER_INT);		
 		$pagina = (!empty($pagina_atual)) ? $pagina_atual : 1;
-        $qnt_result_pg = 2;
+        $qnt_result_pg = 6;
         $inicio = ($qnt_result_pg * $pagina) - $qnt_result_pg;
 
         $result_ind= "SELECT * FROM individuos LIMIT $inicio, $qnt_result_pg" ;
