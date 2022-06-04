@@ -82,7 +82,7 @@ include_once("conex.php");
                 echo "<p> Nome Popular : ".$row_ind['nomepopular']."<br>";
                 echo " Nome Cientifico : ".$row_ind['nomecientifico']."<br>";
                 echo " Altura Total  : ".$row_ind['altura']." (mts) <br>";
-                echo " Diametro (CAP) : ".$row_ind['diametro']." (cm) </p><hr>";
+                echo " Diametro (CAP) : ".$row_ind['diametro']." (cm) </p><br><hr>";
                $cont ++;
                            
             }

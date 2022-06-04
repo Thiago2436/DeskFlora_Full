@@ -35,9 +35,9 @@
                     echo "<h1>Cidade : ".$row_inv['Cidade']."</h1><br>";
                     echo " <h2> Estado : ".$row_inv['Estado']."</h2><br>";
                     echo " <h2>Bairro  : ".$row_inv['Bairro']." (Locate)</h2> <br>";
-                    echo " <h2>Rua : ".$row_inv['Rua']." (Locate) </h2><hr>";
+                    echo " <h2>Rua : ".$row_inv['Rua']." (Locate) </h2>";
                    $cont ++;
-                   echo '<h1><a href="dashboard.php">Abrir inventario </a></h1>';     
+                   echo '<h1><a href="dashboard.php">Abrir inventario </a></h1><br><hr>';     
                 }
                 echo "<h1> Contagem Total : [ ".$cont." ] Registros</h1>"; 
             }
