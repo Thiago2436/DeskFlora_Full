@@ -11,13 +11,14 @@ Prancheta eletrônica web em php
 
 ##DeskFlora-Run
     - Install Lamp serverver, you can get it runnig this command in your linux terminal
-        ```
+       <br>
+       ```
         sudo apt install lamp-server^
         ```
 
 ##DeskFlora-install
-    -make a sql db whit this credencials 
-    ```
+    -make a sql db whit this credencials <br> 
+    ```bash
      $servidor = "localhost";
 	$usuario = "root";
 	$senha = "123456789";

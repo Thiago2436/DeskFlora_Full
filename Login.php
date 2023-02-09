@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="Sstilo.css">
+    <link rel="stylesheet" href="login.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +20,11 @@ session_start();
         <Label for="senha"> SENHA</Label><br>
         <input type="password" name="senha" id="senha" placeholder=" Senha "><br>
         <input type="submit" value="Login">
+        <label for="LINK"> <h1>
+        
+        <a href="index.html"> SAIR SEM LOGAR ! </a>
+
+        </h1></label>
     </form>
     <h1>
     <?php
@@ -33,11 +38,7 @@ session_start();
     </h1>
     <br>
     <footer>
-        <h1>
-        
-        <a href="index.html"> SAIR SEM LOGAR ! </a>
-
-        </h1>
+       
     </footer>
 </body>
 </html>
