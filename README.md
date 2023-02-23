@@ -1,35 +1,25 @@
-# DeskFlora_Full
-Prancheta eletrônica web em php
+# 🌳 deskFlora: Prancheta Eletrônica para Inventário Florestal 📝
+O deskFlora é um software desenvolvido em PHP para a realização de inventário florestal através de uma prancheta eletrônica. Com ele, é possível coletar e registrar dados sobre as árvores e a vegetação presentes em uma área, como espécie, diâmetro, altura, localização geográfica, entre outras informações.
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Run, Install, Clone**
-    - [Run](#DeskFlora-Run)
-	   - [Install](#DeskFlora-install)
-    		    - [Clone](#DeskFlora-Clone)
-    
-<!-- markdown-toc end -->
+# 🚀 Começando
+Para começar a utilizar o deskFlora, você pode clonar este repositório em sua máquina e instalá-lo em um servidor web compatível com PHP. É recomendável verificar a documentação do servidor para garantir que todas as dependências necessárias estejam instaladas e configuradas corretamente.
 
-##DeskFlora-Run
-    - Install Lamp serverver, you can get it runnig this command in your linux terminal
-       <br>
-       ```
-        sudo apt install lamp-server^
-        ```
+# 💻 Pré-requisitos
+PHP 7.0 ou superior
+Servidor web compatível com PHP (como Apache ou Nginx)
+Banco de dados MySQL
 
-##DeskFlora-install
-    -make a sql db whit this credencials <br> 
-    ```bash
-     $servidor = "localhost";
-	$usuario = "root";
-	$senha = "123456789";
-	$dbname = "DeskFlora";
-    ```
-##DeskFlora-Clone
-    - Go to etc/var/www/html
-    - Clone this repo 
-     ```
-     sudo git clone https://github.com/Thiago2436/DeskFlora_Full.git
+#📦 Instalação
+Clone o repositório para sua máquina local:
 
-     ```
+`git clone https://github.com/seu-usuario/deskFlora.git`
+Crie um banco de dados MySQL para o deskFlora e importe o arquivo "database.sql" localizado na raiz do projeto.
 
-enjoy      
+Edite o arquivo "config.php" e configure as informações de conexão com o banco de dados.
+
+Coloque o diretório "deskflora" na raiz do seu servidor web.
+
+Acesse o deskFlora através do seu navegador.
+
+# 📝 Utilização
+O deskFlora foi desenvolvido para ser utilizado através de uma prancheta eletrônica com tela sensível ao toque, mas também pode ser utilizado em um computador convencional. Ele permite a criação de áreas de inventário e a coleta de dados sobre as árvores e a vegetação presentes nessas áreas. Todos os dados são armazenados em um banco de dados MySQL e podem ser exportados em
