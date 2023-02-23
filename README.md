@@ -23,3 +23,11 @@ Acesse o deskFlora através do seu navegador.
 
 # 📝 Utilização
 O deskFlora foi desenvolvido para ser utilizado através de uma prancheta eletrônica com tela sensível ao toque, mas também pode ser utilizado em um computador convencional. Ele permite a criação de áreas de inventário e a coleta de dados sobre as árvores e a vegetação presentes nessas áreas. Todos os dados são armazenados em um banco de dados MySQL e podem ser exportados em
+📄 Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md para mais detalhes.
+
+🤝 Contribuição
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver alguma ideia de melhoria, fique à vontade para abrir uma issue ou um pull request neste repositório.
+
+📞 Contato
+Se você tiver alguma dúvida ou precisar de ajuda com o deskFlora, não hesite em entrar em contato através do e-mail: `thiagomartins.florestal@gmail.com`
